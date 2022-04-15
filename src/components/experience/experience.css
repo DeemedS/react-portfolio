@@ -1,0 +1,119 @@
+.exp-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    height: 20%;
+}
+
+.exp-card {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center;
+    margin: auto; 
+    width: 50%;
+}
+
+.exp-card h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+}
+
+.exp-card h4 , h5{
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+
+/* MODAL */
+
+.cert-image-modal {
+    border-radius: 2rem;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 65%;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+
+}
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    .exp-container {
+        grid-template-columns: 1fr;
+    }
+
+    .exp-card {
+        width: 85%;
+        margin: 0 auto;
+        padding: 5%;
+    }
+
+    .cert-image-modal {
+        border-radius: 2rem;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .exp-container {
+        grid-template-columns: 1fr;
+    }
+
+    .exp-card {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    button {
+        visibility: hidden;
+        height: 0;
+    }
+
+}
