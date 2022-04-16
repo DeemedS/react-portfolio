@@ -7,7 +7,8 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio'
 
-const app = () => {
+const App = () => {
+
   return (
     <>
       <Header />
@@ -21,4 +22,4 @@ const app = () => {
   )
 }
 
-export default app
+export default App

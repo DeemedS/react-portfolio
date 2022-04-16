@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    height: 20%;
 }
 
 .exp-card {
@@ -111,7 +110,7 @@ body.active-modal {
         margin: 0 auto;
     }
 
-    button {
+    .exp {
         visibility: hidden;
         height: 0;
     }

@@ -11,14 +11,11 @@ const Header = () => {
           <h5>Hello I'm</h5>
           <h1>Kem Guianalan</h1>
           <h5 className='text-light'>A Fullstack Developer</h5>
-          <CTA />
           <HeaderSocial />
-
+          <CTA />
           <div className='me'>
             <img src={Pic} alt="me" />
           </div>
-
-          <a href='#contact' className='scroll__down'>Scroll Down</a>
         </div>
     </header>
   )

@@ -14,19 +14,19 @@ import {GiClassicalKnowledge} from 'react-icons/gi'
 
 const About = () => {
   return (
-    <section id= "about">
+    <section id="about">
       <h5>Get to Know</h5>
       <h2>About Me</h2>
 
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={pic} alt='about image' />
+            <img src={pic} alt='aboutme' />
           </div>
         </div>
 
         <div className='about__content'>
-
+            
           <p className='intro'>Graduating student of Diploma in Computer Engineering Technology passionate 
               about Software Development. Proficient in a range of modern technologies including 
               Python, C, Node.js, React, and java, has led multiple senior class projects to completion.

@@ -11,9 +11,9 @@
 }
 
 :root {
-    --color-bg: #4b7a63;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg: #07271c;
+    --color-bg-variant: #023849;
+    --color-primary: #00cf9b;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -38,7 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-image: url(../src/assets/texture1.png);
 }
 
 /* GENERAL */
@@ -58,8 +58,9 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+    height: 100vh fit-content;
 }
+
 
 section > h2, section > h5 {
     text-align: center;

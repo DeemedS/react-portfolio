@@ -1,7 +1,9 @@
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+
 }
 
 .about__me {
@@ -82,6 +84,11 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) {
+
+    #about {
+        height: 50%;
+    }   
+
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;

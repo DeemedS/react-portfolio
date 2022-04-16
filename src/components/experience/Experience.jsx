@@ -4,12 +4,12 @@ import cert from '../../assets/Frame316cert.jpg'
 import { useState } from 'react'
 
 const Experience = () => {
-  const [modal, setModal] = useState(false);
 
+  const [modal, setModal] = useState(false);
   const toggleModal = () =>{
     setModal(!modal)
   }
-
+  
   return (
     <section id="experience">
       <h5>Jobs I've Done</h5>
@@ -22,7 +22,7 @@ const Experience = () => {
           <h5 className='text-light'>Jun 2021 - Aug 2021</h5>
           <h5 className='text-light'>Singapore</h5>
          
-          <button onClick={toggleModal} className='btn btn-primary'>View Certificate</button>
+          <button onClick={toggleModal} className='btn btn-primary exp'>View Certificate</button>
 
           {modal &&(
             <>
@@ -37,16 +37,12 @@ const Experience = () => {
             </div>
             </>
             )}
+            
         </div>
-
-
       </div>
-
-
-      
-      
     </section>
   )
+
 }
 
 export default Experience
