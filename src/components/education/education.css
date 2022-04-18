@@ -1,0 +1,38 @@
+.education-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.education-card {
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 2.4rem 5rem;
+    width: 80%;
+    margin: 1rem auto; 
+}
+
+.education-card h3 {
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.education-card small{
+    text-align: center;
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    .education-card {
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+
+}

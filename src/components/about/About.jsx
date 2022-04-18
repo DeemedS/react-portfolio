@@ -39,7 +39,7 @@ const About = () => {
             <article className='about__card'>
               <CgWorkAlt className='about__icon' />
               <h5>Experience</h5>
-              <small>No working Experience.</small>
+              <small>3 months Student Internship</small>
             </article>
 
             <article className='about__card'>
@@ -56,7 +56,7 @@ const About = () => {
             <article className='about__card'>
               <AiOutlineProject className='about__icon' />
               <h5>Projects</h5>
-              <small>10+ Applications, Websites and Mobile App.</small>
+              <small>3 Web Applications</small>
             </article>
             
           </div>

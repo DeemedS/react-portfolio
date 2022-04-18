@@ -58,8 +58,13 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh fit-content;
+    height: 100vh ;
 }
+
+#portfolio, #education, #experience {
+    height: fit-content;
+}
+    
 
 
 section > h2, section > h5 {

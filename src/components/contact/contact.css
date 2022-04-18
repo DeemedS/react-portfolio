@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    margin-top: 10rem;
 }
 
 .contant-options {
@@ -67,11 +68,21 @@ input, textarea {
     .container.contact-container {
         grid-template-columns: 1fr;
         gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    #contact {
+        height: fit-content;
     }
 }
 
 @media screen and (max-width: 600px) {
     .container.contact-container{
         width: var(--container-width-sm);
+        margin-top: 5rem;
+    }
+
+    #contact {
+        height: fit-content;
     }
 }
